@@ -1,0 +1,2 @@
+Initial state: D0OND1 D0TPa D1BPa EPb EPc 
+Goal state: D0OND1 D0TPb D1BPb EPa EPc 

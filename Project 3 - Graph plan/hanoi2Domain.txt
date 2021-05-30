@@ -1,0 +1,123 @@
+Propositions:
+D0TPa D0BPa D1TPa D1BPa EPa D0TPb D0BPb D1TPb D1BPb EPb D0TPc D0BPc D1TPc D1BPc EPc D0OND1 
+Actions:
+Name: M0PaTEb
+pre: D0TPa D0BPa EPb 
+add: EPa D0TPb D0BPb 
+delete: D0TPa D0BPa EPb 
+Name: M0ON1FaTOb
+pre: D0TPa D0OND1 EPb 
+add: D0TPb D1TPa D0BPb 
+delete: D0TPa D0OND1 EPb 
+Name: M0FEaTObOND1
+pre: D0TPa D1TPb D0BPa 
+add: D0TPb D0OND1 EPa 
+delete: D0TPa D1TPb D0BPa 
+Name: M0ON1FROMaTObON1
+pre: D0TPa D0OND1 D1TPb 
+add: D0TPb D0OND1 D1TPa 
+delete: D0TPa D0OND1 D1TPb 
+Name: M1PaTEb
+pre: D1TPa D1BPa EPb 
+add: EPa D1TPb D1BPb 
+delete: D1TPa D1BPa EPb 
+Name: M0PaTEc
+pre: D0TPa D0BPa EPc 
+add: EPa D0TPc D0BPc 
+delete: D0TPa D0BPa EPc 
+Name: M0ON1FaTOc
+pre: D0TPa D0OND1 EPc 
+add: D0TPc D1TPa D0BPc 
+delete: D0TPa D0OND1 EPc 
+Name: M0FEaTOcOND1
+pre: D0TPa D1TPc D0BPa 
+add: D0TPc D0OND1 EPa 
+delete: D0TPa D1TPc D0BPa 
+Name: M0ON1FROMaTOcON1
+pre: D0TPa D0OND1 D1TPc 
+add: D0TPc D0OND1 D1TPa 
+delete: D0TPa D0OND1 D1TPc 
+Name: M1PaTEc
+pre: D1TPa D1BPa EPc 
+add: EPa D1TPc D1BPc 
+delete: D1TPa D1BPa EPc 
+Name: M0PbTEa
+pre: D0TPb D0BPb EPa 
+add: EPb D0TPa D0BPa 
+delete: D0TPb D0BPb EPa 
+Name: M0ON1FbTOa
+pre: D0TPb D0OND1 EPa 
+add: D0TPa D1TPb D0BPa 
+delete: D0TPb D0OND1 EPa 
+Name: M0FEbTOaOND1
+pre: D0TPb D1TPa D0BPb 
+add: D0TPa D0OND1 EPb 
+delete: D0TPb D1TPa D0BPb 
+Name: M0ON1FROMbTOaON1
+pre: D0TPb D0OND1 D1TPa 
+add: D0TPa D0OND1 D1TPb 
+delete: D0TPb D0OND1 D1TPa 
+Name: M1PbTEa
+pre: D1TPb D1BPb EPa 
+add: EPb D1TPa D1BPa 
+delete: D1TPb D1BPb EPa 
+Name: M0PbTEc
+pre: D0TPb D0BPb EPc 
+add: EPb D0TPc D0BPc 
+delete: D0TPb D0BPb EPc 
+Name: M0ON1FbTOc
+pre: D0TPb D0OND1 EPc 
+add: D0TPc D1TPb D0BPc 
+delete: D0TPb D0OND1 EPc 
+Name: M0FEbTOcOND1
+pre: D0TPb D1TPc D0BPb 
+add: D0TPc D0OND1 EPb 
+delete: D0TPb D1TPc D0BPb 
+Name: M0ON1FROMbTOcON1
+pre: D0TPb D0OND1 D1TPc 
+add: D0TPc D0OND1 D1TPb 
+delete: D0TPb D0OND1 D1TPc 
+Name: M1PbTEc
+pre: D1TPb D1BPb EPc 
+add: EPb D1TPc D1BPc 
+delete: D1TPb D1BPb EPc 
+Name: M0PcTEa
+pre: D0TPc D0BPc EPa 
+add: EPc D0TPa D0BPa 
+delete: D0TPc D0BPc EPa 
+Name: M0ON1FcTOa
+pre: D0TPc D0OND1 EPa 
+add: D0TPa D1TPc D0BPa 
+delete: D0TPc D0OND1 EPa 
+Name: M0FEcTOaOND1
+pre: D0TPc D1TPa D0BPc 
+add: D0TPa D0OND1 EPc 
+delete: D0TPc D1TPa D0BPc 
+Name: M0ON1FROMcTOaON1
+pre: D0TPc D0OND1 D1TPa 
+add: D0TPa D0OND1 D1TPc 
+delete: D0TPc D0OND1 D1TPa 
+Name: M1PcTEa
+pre: D1TPc D1BPc EPa 
+add: EPc D1TPa D1BPa 
+delete: D1TPc D1BPc EPa 
+Name: M0PcTEb
+pre: D0TPc D0BPc EPb 
+add: EPc D0TPb D0BPb 
+delete: D0TPc D0BPc EPb 
+Name: M0ON1FcTOb
+pre: D0TPc D0OND1 EPb 
+add: D0TPb D1TPc D0BPb 
+delete: D0TPc D0OND1 EPb 
+Name: M0FEcTObOND1
+pre: D0TPc D1TPb D0BPc 
+add: D0TPb D0OND1 EPc 
+delete: D0TPc D1TPb D0BPc 
+Name: M0ON1FROMcTObON1
+pre: D0TPc D0OND1 D1TPb 
+add: D0TPb D0OND1 D1TPc 
+delete: D0TPc D0OND1 D1TPb 
+Name: M1PcTEb
+pre: D1TPc D1BPc EPb 
+add: EPc D1TPb D1BPb 
+delete: D1TPc D1BPc EPb 
